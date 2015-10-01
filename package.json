@@ -1,24 +1,14 @@
 {
-  "name": "unit-8sb-express-page",
+  "name": "sharp-plumbing",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "main.js",
   "dependencies": {
-    "body-parser": "^1.13.3",
-    "express": "^4.13.3",
-    "method-override": "^2.3.5",
-    "mocha": "^2.2.5",
-    "mongoose": "^4.1.1",
-    "superagent": "^1.2.0",
-    "supertest": "^1.0.1"
+    "express": "^4.13.3"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server/server.js",
-    "test": "./node_modules/mocha/bin/mocha"
+    "start": "node server/server.js"
   },
   "engines": {
     "node": "0.12.x"
