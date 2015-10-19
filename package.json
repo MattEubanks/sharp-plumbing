@@ -1,18 +1,31 @@
 {
   "name": "sharp-plumbing",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "The website for Bill's Drain Cleaning & Sharp Plumbing",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.13.3"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server/server.js"
+    "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "0.12.x"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickTroutwine/sharp-plumbing.git"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "bills",
+    "drain",
+    "cleaning",
+    "sharp",
+    "plumbing"
+  ],
+  "author": "Nick Troutwine and Matt Eubanks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickTroutwine/sharp-plumbing/issues"
+  },
+  "homepage": "https://github.com/NickTroutwine/sharp-plumbing#readme"
 }
